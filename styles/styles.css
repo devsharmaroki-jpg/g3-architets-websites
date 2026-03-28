@@ -27,6 +27,13 @@
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
 }
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main>section{
+  margin-top: 130px;
+}
 .btn-primary{
   font-weight: 600;
   color: white;
@@ -35,7 +42,9 @@
   font-size: 1.2rem;
   border-radius: 8px;
   border: none;
+  margin-top: 2rem;
 }
+
 /* nav-styles */
 .brand{
   font-weight: 700 ;
@@ -75,6 +84,36 @@
 }
 .banner-imgs{
   width: 100%;
+}
+/* team feauters styles */
+.teams-features-container{
+  align-items: center;
+}
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.6rem;
+
+}
+.team-features{
+  margin-left: 76px;
+}
+.features-title{
+  font-size: 2.95rem;
+  font-weight: 700;
+
+}
+#tite-1st{
+  font-weight: 500;
+}
+#title-3rd{
+  color: #FF900E;
+
+}
+.features-descriptions{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
 }
 /* responsive related */
 @media screen and (max-width :576px) {
